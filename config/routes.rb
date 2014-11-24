@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'coaching#ask'
+  # root 'coaching#ask'
   get 'answer', to: 'coaching#answer'
   get 'ask', to: 'coaching#ask'
 
